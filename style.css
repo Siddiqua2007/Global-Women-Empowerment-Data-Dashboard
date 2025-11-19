@@ -1,0 +1,99 @@
+/* ===== Global Background ===== */
+body {
+    background-color: #0E1320 !important;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* ===== Sidebar Styling ===== */
+[data-testid="stSidebar"] {
+    background-color: #0C0F1A !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+/* Sidebar Title */
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #f3f0f4 !important;
+    font-weight: 700 !important;
+}
+
+/* Sidebar Hover Glow */
+[data-testid="stSidebarNav"] div:hover {
+    background-color: rgba(189, 0, 255, 0.25);
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+/* ===== Main Workspace ===== */
+main, .stApp {
+    background-color: #0E1320 !important;
+}
+
+/* Text Color */
+h1, h2, h3, h4, h5, h6, p, label, span {
+    color: #E6E6E6 !important;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #13C6E2;
+    margin-bottom: 15px;
+}
+
+/* Remove default box backgrounds */
+.stContainer, .stColumn {
+    background: transparent !important;
+}
+
+/* ===== Header / Top Bar ===== */
+header[data-testid="stHeader"] {
+    background: #0E1320 !important;
+    color: #E6E6E6 !important;
+    height: 50px !important;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Fix inner header alignment */
+header[data-testid="stHeader"] > div {
+    background: #0E1320 !important;
+}
+
+/* ===== Top Buttons Styling (Menu, Keyboard, Share) ===== */
+header[data-testid="stHeader"] div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-right: 12px;
+}
+
+/* Style header buttons */
+header[data-testid="stHeader"] button {
+    border-radius: 6px !important;
+    padding: 3px 7px !important;
+    background-color: rgba(189, 0, 255, 0.15) !important;
+    border: 1px solid rgba(189, 0, 255, 0.4) !important;
+    transition: 0.2s ease-in-out;
+}
+
+/* Icon color */
+header[data-testid="stHeader"] svg {
+    fill: #BD00FF !important;
+}
+
+/* Hover glow */
+header[data-testid="stHeader"] button:hover {
+    background-color: rgba(189, 0, 255, 0.35) !important;
+    border-color: #BD00FF !important;
+}
+
+/* Tooltip style fix (optional) */
+[data-testid="stTooltipContent"] {
+    background-color: #0C0F1A !important;
+    color: #E6E6E6 !important;
+    border: 1px solid rgba(189, 0, 255, 0.4) !important;
+}
