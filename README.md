@@ -83,3 +83,42 @@ graph TD
 ---
 
 ## 📁 Repository Structure
+├── app.py # Main Streamlit application
+├── train_employment_model.py # Random Forest training script
+├── rf_employment_model.joblib # Trained model
+├── style.css # Custom dashboard styling
+├── Female_population.csv
+├── women_literacy_rate.csv
+├── Employement_rate_data.csv
+├── women_empowerement_index_data.csv
+├── safety_index.csv
+└── employment_predictions_test_sample.csv
+
+
+---
+
+## 🚀 Running Locally
+
+```bash
+git clone https://github.com/Siddiqua2007/Global-Women-Empowerment-Data-Dashboard.git
+cd Global-Women-Empowerment-Data-Dashboard
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 🔭 Future Work
+
+- Expand indicator coverage (political participation, healthcare access, digital inclusion, wage gap)
+- Multi-year forecasting (LSTM / XGBoost) instead of single-year prediction
+- Live API integration with World Bank / UN Women instead of static CSVs
+- Country-specific drill-down pages
+- Clustering / PCA to group countries by empowerment pattern
+
+---
+
+## 👩‍💻 Author
+
+**Siddiqua Abedeen** — B.Tech, Information Technology, IGDTUW
+Internship Mentor: Dr. Ritu Rani (Anveshan Foundation, IGDTUW)
