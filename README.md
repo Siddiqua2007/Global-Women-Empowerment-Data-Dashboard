@@ -82,21 +82,6 @@ graph TD
 
 ---
 
-## 📁 Repository Structure
-├── app.py # Main Streamlit application
-├── train_employment_model.py # Random Forest training script
-├── rf_employment_model.joblib # Trained model
-├── style.css # Custom dashboard styling
-├── Female_population.csv
-├── women_literacy_rate.csv
-├── Employement_rate_data.csv
-├── women_empowerement_index_data.csv
-├── safety_index.csv
-└── employment_predictions_test_sample.csv
-
-
----
-
 ## 🚀 Running Locally
 
 ```bash
