@@ -156,27 +156,6 @@ graph TD
 
 ---
 
-# 📁 Project Structure
-
-```
-Global-Women-Empowerment-Data-Dashboard
-│
-├── data/
-│
-├── model/
-│   └── random_forest_model.pkl
-│
-├── notebooks/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-└── assets/
-```
-
----
-
 # 🚀 Installation
 
 Clone the repository
@@ -237,6 +216,3 @@ streamlit run app.py
 - Explainable AI using SHAP
 
 
-```
-MIT License
-```
